@@ -1,0 +1,32 @@
+Preconditions
+
+User logged in the GURU website with access details:
+User ID: mngr307636
+Password: nesutAr
+
+The home page on the Guru website is open - http://demo.guru99.com/v2/webpages/Managerhomepage.php
+
+Try to return to the main page through the "Home" button
+
+Steps to Reproduce
+
+1) Open Edit Customer page. 
+2) Click on the "Home" button
+
+Actual Result
+
+The Home button doesn't work, redirects to the page and produces:
+
+"Not FoundThe requested URL was not found on this server.
+Additionally, a 404 Not Found error was encountered while trying to use an ErrorDocument to handle the request."
+
+This error is reproduced also on the New, Delete  Customer pages.
+
+Expected Result
+
+The user can get to the main page through "Home" button.
+
+
+Browser: Chrome, Version 88.0.4324.146 (Official assembly), (64 bit)
+OS: Win10
+http://demo.guru99.com/v2/

@@ -1,0 +1,27 @@
+Preconditions
+
+The authorization page on the Guru website is open - http://demo.guru99.com/v1/index.php
+
+User has User ID and Password
+User ID: mngr307384
+Password: mYrezUv
+
+Try to enter the access details
+
+Steps to Reproduce
+
+1) Leave empty input fields
+2) Check distance from (UserID, Password, * mandatory field) to input fields
+3) Enter UserID (mngr307384) and password (mYrezUv)
+4) Check the distance again after making changes
+
+Actual Result
+Fields location changes when entering login details
+
+Expected Result
+After the changes have been made, all buttons and fields remain static and do not change their distance and  position.
+
+
+Browser: Chrome, Version 88.0.4324.146 (Official assembly), (64 bit)
+OS: Win10
+http://demo.guru99.com/v1/

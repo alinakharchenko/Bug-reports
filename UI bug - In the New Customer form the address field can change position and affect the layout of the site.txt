@@ -1,0 +1,31 @@
+Preconditions
+
+User logged in the GURU website with access details:
+User ID: mngr307636
+Password: nesutAr
+
+The home page on the Guru website is open - http://demo.guru99.com/v2/webpages/Managerhomepage.php
+
+Check the layout of the New Customer form 
+
+Steps to Reproduce
+
+1) Open a New Customer page
+2) Try to change the position of the address input field by dragging the lower right corner of the field.
+
+Actual Result
+
+The system make it possible to change field position that affect the layout of the site. The field is not static.
+
+This issue also reproduces a visual error. And the form for adding a customer is superimposed on top of the Menu form
+
+In the video screen, that which I have attached below, you can see what produces.
+
+Expected Result
+
+All fields must be static, especially do not cover other parts of the site.
+
+
+Browser: Chrome, Version 88.0.4324.146 (Official assembly), (64 bit)
+OS: Win10
+http://demo.guru99.com/v2/
